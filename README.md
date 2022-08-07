@@ -1,3 +1,37 @@
+FORKED VERSION
+=====================
+
+## Installation
+
+It's recommended that you use [Composer](https://getcomposer.org/) to install this package.
+
+
+Add the following to your composer.json file:
+
+
+```
+"require": {
+    "patricpoba/mtn-momo-api-php": "dev-master",
+},
+
+
+"repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:scryba/mtn-momo-api-php.git"
+        }
+    ],
+
+```
+
+After run:
+
+
+```bash
+composer update
+
+```
+
 # MTN MoMo API
 
 
